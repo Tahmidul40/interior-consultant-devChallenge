@@ -1,0 +1,34 @@
+// colors ----------
+$light: #ffffff;
+$dark: #181719;
+$gray: #a9a9a9;
+
+// google font
+$font-c: "Crimson Pro", serif;
+$font-l: "Lora", serif;
+$font-m: "Montserrat", sans-serif;
+
+// media query
+@mixin desktop {
+  @media (min-width: 1110.98px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: 1024.98px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 768.98px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (min-width: 599.98px) {
+    @content;
+  }
+}
